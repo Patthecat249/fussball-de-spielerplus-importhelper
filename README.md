@@ -23,15 +23,15 @@
       - [2.3.7.4. STRG + "-" (Löschen der Zeilen)](#2374-strg----löschen-der-zeilen)
       - [2.3.7.5. Dann sieht es so aus](#2375-dann-sieht-es-so-aus)
   - [2.4. XLSX-Vorlage in Spielerplus hochladen](#24-xlsx-vorlage-in-spielerplus-hochladen)
-    - [Termine \> Termin erstellen](#termine--termin-erstellen)
-    - ["Spielplan importieren" auswählen](#spielplan-importieren-auswählen)
-    - [Datei auswählen](#datei-auswählen)
-    - [Datei hochladen](#datei-hochladen)
-    - [Spalten-Zuordnung](#spalten-zuordnung)
-    - [Spalten-Zuordnung abgeschlossen](#spalten-zuordnung-abgeschlossen)
-    - [Datei importieren](#datei-importieren)
-    - [Imports der letzten 30 Tage](#imports-der-letzten-30-tage)
-    - [So sieht ein Kalendereintrag aus](#so-sieht-ein-kalendereintrag-aus)
+    - [2.4.1. Termine \> Termin erstellen](#241-termine--termin-erstellen)
+    - [2.4.2. "Spielplan importieren" auswählen](#242-spielplan-importieren-auswählen)
+    - [2.4.3. Datei auswählen](#243-datei-auswählen)
+    - [2.4.4. Datei hochladen](#244-datei-hochladen)
+    - [2.4.5. Spalten-Zuordnung](#245-spalten-zuordnung)
+    - [2.4.6. Spalten-Zuordnung abgeschlossen](#246-spalten-zuordnung-abgeschlossen)
+    - [2.4.7. Datei importieren](#247-datei-importieren)
+    - [2.4.8. Imports der letzten 30 Tage](#248-imports-der-letzten-30-tage)
+    - [2.4.9. So sieht ein Kalendereintrag aus](#249-so-sieht-ein-kalendereintrag-aus)
 - [3. Beschreibung der verwendeten Excel-Formeln](#3-beschreibung-der-verwendeten-excel-formeln)
   - [3.1. Rechtliche Betrachtung](#31-rechtliche-betrachtung)
 
@@ -135,31 +135,31 @@ Spieltyp eintragen. Hier kann ein beliebiger Text rein, z.B.:
 
 
 ## 2.4. XLSX-Vorlage in Spielerplus hochladen
-### Termine > Termin erstellen
+### 2.4.1. Termine > Termin erstellen
 ![import-helper](images/20-termin-erstellen.png)
 
-### "Spielplan importieren" auswählen
+### 2.4.2. "Spielplan importieren" auswählen
 ![import-helper](images/21-spielplan-importieren.png)
-### Datei auswählen
+### 2.4.3. Datei auswählen
 ![import-helper](images/22-datei-auswaehlen1.png)
 ![import-helper](images/23-datei-auswaehlen.png)
-### Datei hochladen
+### 2.4.4. Datei hochladen
 ![import-helper](images/23-datei-hochladen.png)
 
-### Spalten-Zuordnung
+### 2.4.5. Spalten-Zuordnung
 ![import-helper](images/24-spalten-zuordnung.png)
 
-### Spalten-Zuordnung abgeschlossen
+### 2.4.6. Spalten-Zuordnung abgeschlossen
 Beachte Spaltenköpfe-Zuordnung
 ![import-helper](images/25-spalten-zuordnung.png)
 
-### Datei importieren
+### 2.4.7. Datei importieren
 ![import-helper](images/26-datei-importieren.png)
 
-### Imports der letzten 30 Tage
+### 2.4.8. Imports der letzten 30 Tage
 ![import-helper](images/27-so-sieht-es-nach-upload-aus.png)
 
-### So sieht ein Kalendereintrag aus
+### 2.4.9. So sieht ein Kalendereintrag aus
 ![import-helper](images/28-so-sieht-kalenereintrag-nach-upload-aus.png)
 
 # 3. Beschreibung der verwendeten Excel-Formeln
