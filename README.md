@@ -1,9 +1,9 @@
 - [1. Schritt-für-Schritt-Anleitung (HowTo: Importiere den Jahresspielplan deiner Fussball-Mannschaft als Termine in die Spielerplus-App)](#1-schritt-für-schritt-anleitung-howto-importiere-den-jahresspielplan-deiner-fussball-mannschaft-als-termine-in-die-spielerplus-app)
-  - [Wie kommst du von hier nach ...](#wie-kommst-du-von-hier-nach-)
-  - [... hier](#-hier)
-  - [... bzw. hier](#-bzw-hier)
-  - [1.1. Warum ist es notwendig Excel zu verwenden?](#11-warum-ist-es-notwendig-excel-zu-verwenden)
-  - [1.2. Import-Funktion nur über Web-UI - nicht per App möglich](#12-import-funktion-nur-über-web-ui---nicht-per-app-möglich)
+  - [1.1. Wie kommst du von hier nach ...](#11-wie-kommst-du-von-hier-nach-)
+  - [1.2. ... hier](#12--hier)
+  - [1.3. ... bzw. hier](#13--bzw-hier)
+  - [1.4. Warum ist es notwendig Excel zu verwenden?](#14-warum-ist-es-notwendig-excel-zu-verwenden)
+  - [1.5. Import-Funktion nur über Web-UI - nicht per App möglich](#15-import-funktion-nur-über-web-ui---nicht-per-app-möglich)
 - [2. Ablauf des Datenimports in Spielerplus](#2-ablauf-des-datenimports-in-spielerplus)
   - [2.1. XLSX-Vorlage von Spielerplus herunterladen](#21-xlsx-vorlage-von-spielerplus-herunterladen)
     - [2.1.1. URL öffnen:](#211-url-öffnen)
@@ -30,22 +30,22 @@
 # 1. Schritt-für-Schritt-Anleitung (HowTo: Importiere den Jahresspielplan deiner Fussball-Mannschaft als Termine in die Spielerplus-App)
 Im folgenden erkläre ich dir, wie du deinen Spielplan mit allen Spielen deiner Mannschaft von Fussball.de unter zu Hilfenahme von Excel als Termine in deinen Spielerplus-Kalender importierst. 
 
-## Wie kommst du von hier nach ... 
+## 1.1. Wie kommst du von hier nach ... 
 ![alle-spiele-kopieren](images/01-alle-spiele-kopieren.png)
 
-## ... hier
+## 1.2. ... hier
 ![import-helper](images/14-finales-aussehen-vor-import.png)
 
-## ... bzw. hier
+## 1.3. ... bzw. hier
 ![import-helper](images/15-kalender-eintrag.png)
 
 
-## 1.1. Warum ist es notwendig Excel zu verwenden?
+## 1.4. Warum ist es notwendig Excel zu verwenden?
 Zum aktuellen Zeitpunkt gibt es keine Fussball.de-Rest-API, welche man verwenden könnte, um eine Export/Import-Schnittstelle von Fussball.de nach Spielerplus.de zu entwickeln. Es gibt ein paar eine Widgets, die jedoch nicht als Kalender-import/export verwendet werden können. Es gibt jedoch eine Import-Funktion in Spielerplus, welche auf Basis von CSV-Dateien basiert. Somit können Daten in Excel bereitgestellt werden und per Import-Funktion in Spielerplus überführt werden.
 
 Daher zeige ich dir hier, wie du in 10 Minuten deinen kompletten Spielplan von Fussball.de als Termine in deine Spielerplus-App bekommst.
 
-## 1.2. Import-Funktion nur über Web-UI - nicht per App möglich
+## 1.5. Import-Funktion nur über Web-UI - nicht per App möglich
 Aktuell kannst du die Import-Funktion nur am PC, Laptop bzw. über die Web-URL in einem Browser nutzen. Innerhalb der App gibt es die Import-Funktion leider nicht.
 
 # 2. Ablauf des Datenimports in Spielerplus
